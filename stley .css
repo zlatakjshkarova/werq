@@ -1,0 +1,19 @@
+.p {
+
+
+    font-size: 20;
+}
+
+.ty {
+    width: 45px;
+    background-color: blue;
+}
+
+.p:hover+.ty {
+    background-color: chocolate;
+    height: 67px;
+}
+
+.ty:hover {
+    width: 1234px;
+}
